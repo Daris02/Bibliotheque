@@ -10,6 +10,8 @@ Here is my first full stack project with node js and express js which has for th
   - Open in IDE
   - Execute the sql file __biblioDataBase.sql__ in command prompt SQL :
     *  ` \i 'biblioDataBase.sql' `
+  - Change database login password, in file __databaseConnection.js__:
+    ![image](public/image/password.png?raw=true)
   - Launch app in local : 
     * `npm start`
   - Go to navigator in adress : __http://localhost:5000__

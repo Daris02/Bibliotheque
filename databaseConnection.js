@@ -4,6 +4,6 @@ export const pool = new pg.Pool({
     user: "postgres",
     host: "localhost",
     database: "bibliotheque",
-    password: "postgres", // <======= A modifier
+    password: "postgres", // <======= change
     port: 5432
 });
