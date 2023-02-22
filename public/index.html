@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Full Stack</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/bootstrap.bundle.js" defer></script>
+    <script src="./js/jquery-3.6.3.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html">Bibliothèque</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-white" href="#">Livre disponible</a>
+                        <a class="nav-link text-white" href="addBook.html">Ajouter livre</a>
+                        <a class="nav-link text-white" href="#">Supprimer livre</a>
+                    </div>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" name="title" type="search" placeholder="titre du livre" aria-label="Search" id="inputSearch">
+                    <button class="btn btn-outline-primary" id="get" >Recherche</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container mx-auto my-5">
+        <section class="row row-cols-1 row-cols-sm-2 row-cols-lg-2" id="allElement">
+            
+        </section>
+        <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3" id="allElementSearch">
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<link rel="stylesheet" href="./css/style.css">
+</html>
