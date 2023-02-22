@@ -8,7 +8,7 @@ Here is my first full stack project with node js and express js which has for th
 ## The steps to launch it
   - Clone this repository
   - Open in IDE
-  - Execute the file __biblioDataBase.sql__ in command of SQL :
+  - Execute the sql file __biblioDataBase.sql__ in command prompt SQL :
     *  ` \i 'biblioDataBase.sql' `
   - Launch app in local : 
     * `npm start`
