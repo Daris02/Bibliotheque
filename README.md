@@ -11,6 +11,7 @@ Here is my first full stack project with node js and express js which has for th
   - Execute the sql file __biblioDataBase.sql__ in command prompt SQL :
     *  ` \i 'biblioDataBase.sql' `
   - Launch app in local : 
+    * `npm install`
     * `npm start`
   - Go to navigator in adress : __http://localhost:5000__
   
